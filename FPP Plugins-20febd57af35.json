@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "fpp-plugins",
+  "private_key_id": "20febd57af3571340f72478d2fdf20aea5f5bbd8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCzisxyZrI3B7So\nQfpUIibbTTBl595TFiCaKIX2qyNjBJoU4z9F9rx9grFLJaUa8mLJpa6D0q0sDnDa\n0AZi066GHVbedAtkWLZ2cTQs4cLt/K/a73EekkmbPXhvNQeFFBfMeDE8HPCDFiPx\nDO4JFpL1+XUNAyd05Qt1JZ6/AEEzysz0TYaLBoI2q2GeXBp30slvhZ4p3XmQUibz\ngOhIOhHP4IBDla8vkE4tk2tAiIzT1swB5VHLJJR4v/RowTmHH28EneE95l74NQ/I\nzgCViW4VbALi0T2T6wrH7eDyJJ5kRBf/lE2h1jEWrUPPTeIyWVG80nGcmYZqHpMR\nsffLvXDhAgMBAAECggEABNYEAD/aZIeRWufeC4aY99a6K0CF2USTD7vwMc71xszA\nrrfZRDPra1EKH/1NV264cPiEvRm/XtyrtwUb6u0LOiMPrDHBfcwy6/lMH7pcAweH\noBTLffiQQX10IUCzKWc7Zd9F6jnYU5uUz8Eap0WDo1r7B2TymuAxgRAImNnzp6au\n82cO4kRKcqep6cPthIDhZ+fzlTeicl/EoDz1TPVaYF8FuxqNFfdUBe5PUjeIJ41E\nk4fUALbcqut/vbIIFNLXzqv/xVFq5pVw8HMFM8MbyH1+V72dsGNcR1gV49kKQbkk\n4+G6O53mPUFiZoHJmmVZHOz4VsYrQz9664LTVxcDvQKBgQDgUbouZluzxSrs65eT\n0bb5zFqDU7gnbsXgDAtxEp4X4ikrokNh22awIQtIWz8+FK4di7c4GKiO3EBwcnBE\nMH5dSUZkcMlDqFcsvUXx3j4pdybUICr/KnSeM5B4RKBQw0Jj6hk2k7HKspFkFhPF\nFxlYtk6dKDp/H2RoWhW0T0ptdQKBgQDM5ieNLJTzEbwfXPlYbt671ioOFhrtjpwM\nUHqScwpAz9HtZHrqv2Hsd99LUQ8ZlYM6p5LsC568TFAkeSi1/Bw1zcmgyw5a8K7J\npVVHH/Rt+LAD+y18qXuMWJAh8/irDrGiiFI2qAcNy+PyAxajziQ8a8O1vzzVj7jy\nMjokPwRsPQKBgEFeT50Z4vs+J8Ym2WMQJ/wfWvkOOonzM+KYX/UxcbSQCWNXw78O\nipwk5P7O6F0U9bBSeK/2L5iCAp1CHAkjAI/6vHKkk2IN+mllNq7HDuJSgJQsU5tM\nKfO4Hw+NIBKo8/3dyD8pRxREeS3raRN0KcS6S6psgK9u3Hm0VsLWoF/JAoGAUF87\nRnIlXw8m1rqWiCy9K7r/NhVPrL1S0rXCzq1XaULbmp3eZTR7CdGfgiCipqtyFVDk\nHbkVI9FfYl8wK+pfem9lVrAvylY8iZZT1BlhvL1e9cDR/+NPNicLKnZTpW2XGiUU\n8qGIWs4OdMDnYYubxSOUWjdQeojsx/wRuGQLrRUCgYEA2//WlH+l3vHU/7MeQ3R2\nAB3wj6tE6Sh1DfNr5e3LXbldszcDkapJLbmfmXp3w6v2idvm1UAJFYpFafO5Y8Cb\nAHDpZH4E1npN3L7iqgBU6SbFyrJ3XBiIcXZkKnevP4PUEwimnWZquT41EqtVZMM/\nXPRfWqxOQsVjUqalb2bagwg=\n-----END PRIVATE KEY-----\n",
+  "client_email": "fpp-plugins-service-account@fpp-plugins.iam.gserviceaccount.com",
+  "client_id": "114420563576294396172",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/fpp-plugins-service-account%40fpp-plugins.iam.gserviceaccount.com"
+}
