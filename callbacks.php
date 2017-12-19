@@ -11,7 +11,7 @@ include_once "functions.inc.php";
 
 define('LOCK_DIR', '/tmp/');
 define('LOCK_SUFFIX', '.lock');
-$pluginName = "Thingspeak";
+$pluginName = "GoogleDrive";
 
 
 $myPid = getmypid();
