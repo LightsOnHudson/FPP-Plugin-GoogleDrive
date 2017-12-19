@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-include_once __DIR__ . '/../src/Google/autoload.php';
+include_once '/home/fpp/media/plugins/GoogleDrive/src/Google/autoload.php';
 include_once "templates/base.php";
 
 echo pageHeader("File Upload - Uploading a simple file");
