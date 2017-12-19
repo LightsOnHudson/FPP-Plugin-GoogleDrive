@@ -1,7 +1,7 @@
 <?php
 
 $pages = Array(
-	'name' => "Thingspeak",
+	'name' => "Google Drive",
 	'type' => "output",
 	'page' => "plugin_setup.php");
 
