@@ -133,10 +133,10 @@ function validateCsrfToken()
       && $_REQUEST['csrf_token'] === $_SESSION['csrf_token'];
 }
 
-function getOAuthCredentialsFile()
+function getOAuthCredentialsFile($oauth_creds)
 {
   // oauth2 creds
-  $oauth_creds = __DIR__ . '/../../oauth-credentials.json';
+ // $oauth_creds = __DIR__ . '/hooauth-credentials.json';
 
   if (file_exists($oauth_creds)) {
     return $oauth_creds;
