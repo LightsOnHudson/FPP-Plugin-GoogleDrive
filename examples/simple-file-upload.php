@@ -25,7 +25,7 @@ $oauth_credentials = "/home/fpp/media/plugins/GoogleDrive/oauth-credentials.json
 /*************************************************
  * Ensure you've downloaded your oauth credentials
  ************************************************/
-if (!$oauth_credentials = getOAuthCredentialsFile()) {
+if (!$oauth_credentials = getOAuthCredentialsFile($oauth_credentials)) {
   echo missingOAuth2CredentialsWarning();
   return;
 }
