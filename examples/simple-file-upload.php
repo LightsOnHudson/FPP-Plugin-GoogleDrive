@@ -34,7 +34,7 @@ if (!$oauth_credentials = getOAuthCredentialsFile($oauth_credentials)) {
  * The redirect URI is to the current page, e.g:
  * http://localhost:8080/simple-file-upload.php
  ************************************************/
-$FAKE_SERVER_NAME = "fppvm1.fpp.com";
+$FAKE_SERVER_NAME = "fppvm1.fpp.com/plugin.php?plugin=GoogleDrive&page=examples/simple-file-upload.php";
 $redirect_uri = 'http://' . $FAKE_SERVER_NAME . $_SERVER['PHP_SELF'];
 
 $client = new Google_Client();
