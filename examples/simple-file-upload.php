@@ -34,7 +34,7 @@ if (!$oauth_credentials = getOAuthCredentialsFile($oauth_credentials)) {
  * The redirect URI is to the current page, e.g:
  * http://localhost:8080/simple-file-upload.php
  ************************************************/
-$FAKE_SERVER_NAME = "fppvm1.fpp.com/plugin.php?plugin=GoogleDrive&page=examples/simple-file-upload.php";
+$FAKE_SERVER_NAME = "fppvm1.fpp.com/plugin.php?plugin=GoogleDrive&page=examples/simple-file-upload.php&nopage=1";
 $redirect_uri = 'http://' . $FAKE_SERVER_NAME;// . $_SERVER['PHP_SELF'];
 
 $client = new Google_Client();
@@ -82,7 +82,7 @@ if (!empty($_SESSION['upload_token'])) {
  ************************************************/
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && $client->getAccessToken()) {
   // We'll setup an empty 1MB file to upload.
-  DEFINE("TESTFILE", 'testfile-small.txt');
+  DEFINE("TESTFILE", '/home/fpp/media/plugins/GoogleDrive/testfile-small.txt');
   if (!file_exists(TESTFILE)) {
     $fh = fopen(TESTFILE, 'w');
     fseek($fh, 1024 * 1024);
