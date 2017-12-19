@@ -15,10 +15,12 @@
  * limitations under the License.
  */
 
-require_once '/home/fpp/media/plugins/GoogleDrive/src/Google/autoload.php';
+include_once __DIR__ . '/../vendor/autoload.php';
 include_once "templates/base.php";
 
 echo pageHeader("File Upload - Uploading a simple file");
+$oauth_credentials = "FPP Plugins-20febd57af35.json";
+
 
 /*************************************************
  * Ensure you've downloaded your oauth credentials
